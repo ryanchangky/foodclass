@@ -15,7 +15,7 @@ from starlette.staticfiles import StaticFiles
 # CONFIGURATIONS HERE
 export_file_url = 'https://storage.googleapis.com/bucket_ryanchangky/model2.h5'
 export_file_name = 'model2.h5'
-classes = ['mee_goreng', 'chicken_rice', 'roti_prata']
+classes = ['roti_prata', 'mee_goreng', 'chicken_rice']
 valid_aug = [central_crop]
 
 
